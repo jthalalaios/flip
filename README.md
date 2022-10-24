@@ -4,10 +4,10 @@ First of all you have to install docker: https://docs.docker.com/engine/install/
 
 Docker stack:
 
-1) Create network: go to location: Flip/flip-stack with the following command: docker network create flip-network
-2) Create image but first you have to be on Flip/flip-stack/flip-api to run so docker finds the Dockerfile with the following command: docker build -t flip-api-image .  (the command requires on the end the dot ".")
-3) Build the image: go back to location: Flip/flip-stack with the following command:  docker-compose build --no-cache
-4) Up the containers be on same location: Flip/flip-stack with the following command: docker-compose up -d
+1) Create network: go to location: flip/flip-stack with the following command: docker network create flip-network
+2) Create image but first you have to be on flip/flip-stack/flip-api to run so docker finds the Dockerfile with the following command: docker build -t flip-api-image .  (the command requires on the end the dot ".")
+3) Build the image: go back to location: flip/flip-stack with the following command:  docker-compose build --no-cache
+4) Up the containers be on same location: flip/flip-stack with the following command: docker-compose up -d
 
 
 After docker's containers are up:
