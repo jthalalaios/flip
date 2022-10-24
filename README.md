@@ -12,7 +12,7 @@ Docker stack:
 
 After docker's containers are up:
 
-1) Go inside flip-project container with the following command: docker exec -it flip-project bash
+1) Go inside flip-project container with the following command: docker exec -it flip-api bash
 2) In case that key is not on .env inside laravel's folder use the command: php artisan key:generate (to set the the APP_KEY value in your .env)
 3) Run composer's installation: composer install
 4) Run migration: php artisan migrate
